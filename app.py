@@ -38,9 +38,9 @@ def label_prediction(prediction):
         0: "Sangat Lemah",
         1: "Lemah",
         2: "Normal",
-        3: "Overweight",
-        4: "Obesity",
-        5: "Extreme Obesity"
+        3: "Kelebihan Berat Badan",
+        4: "Obesitas",
+        5: "Obesitas Ekstrim"
     }
     return labels.get(prediction, "Unknown")
 
