@@ -35,8 +35,8 @@ def saran_gaya_hidup(bmi, aktivitas_fisik, asupan_buah_sayur):
 # Function to label the prediction
 def label_prediction(prediction):
     labels = {
-        0: "Extremely Weak",
-        1: "Weak",
+        0: "Sangat Lemah",
+        1: "Lemah",
         2: "Normal",
         3: "Overweight",
         4: "Obesity",
